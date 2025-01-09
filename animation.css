@@ -1,0 +1,81 @@
+
+@keyframes line {
+    0%{
+        width: 0%;
+        left: 0;
+    }
+    50%{
+        width: 100%;
+        left: 0;
+    }
+    100%{
+        width: 0%;
+        left: 100%;
+    }
+}
+@keyframes color {
+    0%{
+        color: blueviolet;
+    }
+    30%{
+        color: rgb(219, 118, 35);
+        font-size: 42px;
+        font-weight: 700;
+    }
+    60%{
+        color: rgb(214, 176, 79);
+        font-weight: 800;
+        font-size: 44px;
+    }
+    100%{
+        font-weight: 700;
+       color: rgb(122, 120, 120);
+       font-size: 40px;
+    }
+}
+@keyframes btnbg {
+    0%{
+        background-color: blueviolet;
+    }
+    30%{
+        background-color: rgb(219, 118, 35);
+    }
+    60%{
+        background-color: rgb(214, 176, 79);
+    }
+    100%{
+       background-color: rgb(122, 120, 120);
+    }
+}
+@keyframes c1 {
+    0%{
+        scale: 1;
+    } 
+    100%{
+        scale: 1.2;
+    }
+}
+@keyframes c2 {
+    0%{
+        scale: 1;
+    } 
+    100%{
+        scale: 1.2;
+    }
+}
+@keyframes c3 {
+    0%{
+        scale: 1;
+    } 
+    100%{
+        scale: 1.2;
+    }
+}
+@keyframes c4 {
+    0%{
+        scale: 1;
+    } 
+    100%{
+        scale: 1.2;
+    }
+}

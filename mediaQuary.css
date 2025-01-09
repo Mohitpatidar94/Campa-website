@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1400px) {
+    .header img{
+        height: 13vw;
+    }
+    .header{
+        padding-right: 7vw;
+    }
+    .content{
+        flex-direction: column;
+        height: 140vh;
+    }
+   .left{
+    width: 100%;
+    padding-top: 15vw;
+   }
+   .left p{
+    width: 77%;
+}
+   .center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-block: 22px;
+   }
+   .center img{
+    height: 100%;
+    position: absolute;
+   }
+   .right{
+    height: 40%;
+    width: 100%;
+    flex-direction: row;
+    justify-content:space-around;
+   }
+   .circle{
+    display: inline-block;
+   }
+}
+  @media only screen and (max-width: 956px) {
+    .header ul li{
+        display: none;
+    }
+    .right{
+        flex-wrap: wrap;
+    }
+    .header ul i{
+        display:block;
+        font-size: 25px;
+    }
+  }

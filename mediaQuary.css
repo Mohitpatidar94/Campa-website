@@ -4,6 +4,8 @@
     }
     .header{
         padding-right: 7vw;
+        height: 17vh;
+
     }
     .content{
         flex-direction: column;
@@ -37,6 +39,9 @@
    }
 }
   @media only screen and (max-width: 956px) {
+    .header{
+        height: 12vh;
+    }
     .header ul li{
         display: none;
     }

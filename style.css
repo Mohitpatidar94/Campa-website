@@ -3,7 +3,7 @@ body,html{
     height: 100vh;
     background-color: #efefef;
 }
-*{
+*{ 
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -86,7 +86,7 @@ body,html{
     border: none;
     font-size: 18px;
     color: white;
-    transition: 1s ;
+/*     transition: 1s ; */
     cursor: pointer;
 }
 .left button:hover{
@@ -109,7 +109,6 @@ body,html{
 .center img:hover{
     filter: drop-shadow(13px 13px  rgba(159, 157, 157, 0.953));
     rotate: 0deg;
-
 }
 
 .right{

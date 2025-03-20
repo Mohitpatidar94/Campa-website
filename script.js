@@ -6,15 +6,15 @@ let btn= document.querySelector("#btn");
 circle.addEventListener("click",()=>{
     console.log("clicked");
     changeImg.src = "purple.png"
-    spanText.style.color="purple"
-    btn.style.background="purple"
+    spanText.style.color="bluevoilet"
+    btn.style.background="bluevoilet"
 })
 
 let circle2 = document.querySelector("#circle2");
 circle2.addEventListener("click",()=>{
     changeImg.src = "2nd cane.png";
-    spanText.style.color="orange"
-    btn.style.background="orange"
+    spanText.style.color="rgb(214, 176, 79)"
+    btn.style.background="rgb(214, 176, 79)"
 })
 
 let circle3 = document.querySelector("#circle3");

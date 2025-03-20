@@ -1,12 +1,12 @@
 body,html{
     width: 100vw;
     height: 100vh;
-    background-color: #efefef;
+    background-color: #efefef; 
 }
 *{ 
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     font-family: sans-serif;
 }
 .header{
@@ -86,7 +86,7 @@ body,html{
     border: none;
     font-size: 18px;
     color: white;
-/*     transition: 1s ; */
+/*     transition: 1s; */
     cursor: pointer;
 }
 .left button:hover{
@@ -142,7 +142,7 @@ body,html{
 ::selection{
     background-color: rgb(133, 87, 176);
     color: black;
-}
+}   
 .circle:hover{
     scale: 1.2;
 }

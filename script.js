@@ -1,33 +1,25 @@
 let changeImg = document.querySelector("#Myimg");
 let circle = document.querySelector("#circle1");
+let spanText = document.querySelector("#span_text");
+let btn= document.querySelector("#btn");
 
 circle.addEventListener("click",()=>{
     console.log("clicked");
-    purple();
+    changeImg.src = "purple.png"
+    spanText.style.color="purple"
 })
-function purple (){
-    changeImg.src = "purple.png"   
-}
 
 let circle2 = document.querySelector("#circle2");
 circle2.addEventListener("click",()=>{
-    twoCane();
-})
-function twoCane(){
     changeImg.src = "2nd cane.png";
-}
+})
 
 let circle3 = document.querySelector("#circle3");
 circle3.addEventListener("click",()=>{
-    threeCane();
+      changeImg.src = "3rd cane.png";
 })
-function threeCane(){
-    changeImg.src = "3rd cane.png";
-}
+
 let circle4 = document.querySelector("#circle4");
 circle4.addEventListener("click",()=>{
-    fourCane();
+   changeImg.src = "4th cane.png";
 })
-function fourCane(){
-    changeImg.src = "4th cane.png";
-}

@@ -168,4 +168,19 @@ body,html{
     background-color: rgb(187, 189, 191);
 
 }
-
+.purple_color{
+   color: blueviolet;
+}
+.orangeLight_color{
+   color: rgb(214, 176, 79);
+}
+.orange_color{
+   color: rgb(219, 118, 35);
+}
+.silver_color{
+   color: rgb(187, 189, 191);;
+}
+.second-section{
+    height: 500px;
+    background: royalblue;
+}

@@ -6,8 +6,8 @@ let btn= document.querySelector("#btn");
 circle.addEventListener("click",()=>{
     console.log("clicked");
     changeImg.src = "purple.png"
-    spanText.style.color="bluevoilet"
-    btn.style.background="bluevoilet"
+    spanText.style.color="purple"
+    btn.style.background="purple"
 })
 
 let circle2 = document.querySelector("#circle2");

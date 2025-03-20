@@ -7,11 +7,14 @@ circle.addEventListener("click",()=>{
     console.log("clicked");
     changeImg.src = "purple.png"
     spanText.style.color="purple"
+    btn.style.background="purple"
 })
 
 let circle2 = document.querySelector("#circle2");
 circle2.addEventListener("click",()=>{
     changeImg.src = "2nd cane.png";
+    spanText.style.color="orange"
+    btn.style.background="orange"
 })
 
 let circle3 = document.querySelector("#circle3");
